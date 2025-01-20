@@ -7,14 +7,19 @@ body{
     background-color: #f0e2c5;
 }
 /*  header section */
-header{
+header {
     border: 2px solid black;
     text-align: center;
     padding: 30px 0;
+    background-image: url("Images/wooden-surface-looking-out-people-bar_23-2147701355.avif");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the header area */
+    height: auto; /* Allows the height to adjust based on content */
 }
 header h1{
     font-family: "Playfair Display SC",serif;
-    color: #49281a;
+    color:#49281a;
     font-size: 3rem;
 }
 header p{
@@ -61,6 +66,7 @@ nav a:hover{
     width: 250px;
     padding: 10px;
     border-radius: 10px;
+    display: inline-block;
 }
 .card-img-top{
     max-width: 100%;
@@ -131,3 +137,4 @@ footer p{
     font-family: "Lato",serif;
     text-align: center;
 }
+
