@@ -55,7 +55,7 @@ nav a:hover{
     border-bottom: 2px solid #f0e2c5;
 }
 /* our menu section*/
-.menu h2{
+#our_menu{
     font-family: "Lato",serif;
     padding: 10px 0;
     color: #49281a;
