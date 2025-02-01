@@ -42,6 +42,11 @@ nav{
     text-align: center;
     padding: 20px 0;
     background-color: #49281a;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
 }
 nav a{
     text-decoration: none;
@@ -67,6 +72,7 @@ nav a:hover{
     padding: 10px;
     border-radius: 10px;
     display: inline-block;
+    text-align: center;
 }
 .card-img-top{
     max-width: 100%;
@@ -133,8 +139,15 @@ form div {
     border-bottom: 2px dotted black;
 }
 
-footer p{
-    font-family: "Lato",serif;
+#copy {
+    font-family: "Lato", serif;
     text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
 }
 
