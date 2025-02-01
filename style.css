@@ -15,15 +15,16 @@ header {
     text-align: center;
     padding: 30px 0;
     background-image: url("Images/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd_1421-472.avif");
-    background-position: 100%;
+    background-position: 90%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover,inherit;
     height: auto; /* Allows the height to adjust based on content */
 }
 header h1{
     font-family: "Playfair Display SC",serif;
-    color: #c09b6f;
+    /*color: #c09b6f;*/
     /*color: #FFF0D1;*/
+    color: #fffDD0;
     font-size: 3rem;
 }
 header p{
@@ -31,16 +32,18 @@ header p{
     font-size: 1.2rem;
     margin: 20px 0;
     /* color: #a9864e; */
-    color: #c09b6f;
+    /*color: #c09b6f; */
+    color:  #FFF0D1;
 }
 .btn{
     display: inline-block;
     font-family: "Lato", serif;
     background-color: #49281a;
     padding: 15px 25px;
-    color:#f0e2c5;
+    color:#ffe8b8;
     border-radius:8px ;
     text-decoration: none;
+
 }
 /* nav section */
 nav{
@@ -63,7 +66,8 @@ nav a{
     font-family: "Lato", serif;
 }
 nav a:hover{
-    border-bottom: 2px solid #A79277;
+    /*​border-bottom: 2px solid #A79277;*/
+    border-bottom: 3px solid #c09b6f ;
 }
 /* our menu section*/
 #our_menu{
@@ -152,12 +156,18 @@ form div {
 
 footer{
     position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
+    width: 100px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #49281a;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 footer a{
     text-decoration: none;
-    
+    color: #f0e2c5;
 }
 
