@@ -14,7 +14,7 @@ header {
     border: 1px solid black;
     text-align: center;
     padding: 30px 0;
-    background-image: url("Images/wooden-surface-looking-out-people-bar_23-2147701355.avif");
+    background-image: url("Images/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd_1421-472.avif");
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,13 +22,16 @@ header {
 }
 header h1{
     font-family: "Playfair Display SC",serif;
-    color: #49281a;
+    color: #c09b6f;
+    /*color: #FFF0D1;*/
     font-size: 3rem;
 }
 header p{
     font-family: "Lato", serif;
     font-size: 1.2rem;
     margin: 20px 0;
+    /* color: #a9864e; */
+    color: #c09b6f;
 }
 .btn{
     display: inline-block;
@@ -41,26 +44,26 @@ header p{
 }
 /* nav section */
 nav{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     text-align: center;
     padding: 20px 0;
-    background-color: #49281a;
-        position: sticky;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
+    background-color: #3d240e;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
 }
 nav a{
     text-decoration: none;
-    color: #f0e2c5;
+    color: #c09b6f; 
     padding: 20px;
     /*border: 1px solid;*/
     margin-right: 10px;
     font-family: "Lato", serif;
 }
 nav a:hover{
-    border-bottom: 2px solid #f0e2c5;
+    border-bottom: 2px solid #A79277;
 }
 /* our menu section*/
 #our_menu{
@@ -152,5 +155,9 @@ footer{
     bottom: 0;
     right: 0;
     width: 300px;
+}
+footer a{
+    text-decoration: none;
+    
 }
 
