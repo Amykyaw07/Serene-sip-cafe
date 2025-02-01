@@ -29,11 +29,13 @@ header h1{
 }
 header p{
     font-family: "Lato", serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 20px 0;
     /* color: #a9864e; */
     /*color: #c09b6f; */
     color:  #FFF0D1;
+    word-spacing: 2px;
+    letter-spacing: 2px;
 }
 .btn{
     display: inline-block;
