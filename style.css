@@ -46,6 +46,7 @@ header p{
     border-radius:8px ;
     text-decoration: none;
     letter-spacing: 1px;
+    box-shadow: 1px 1px 1px #f0e2c5;
 
 }
 /* nav section */
